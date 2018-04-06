@@ -34,10 +34,3 @@ class GenericProblem():
         for i in range(self.number_of_cases):
             output = self.solve_one()
             self.write_case(output)
-
-if __name__ == '__main__':
-    write_case(1)
-    write_case(2)
-    write_case(3)
-    write_case(4)
-
